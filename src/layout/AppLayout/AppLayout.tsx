@@ -28,7 +28,7 @@ const HeaderItemContainer = styled.div`
 	margin: 0 auto;
 	${responsive['desktop']} {
 		max-width: 80rem;
-		background: purple;
+		/* background: purple; */
 	}
 `;
 
@@ -48,15 +48,15 @@ const Body = styled.article`
 
 	${responsive['desktop']} {
 		max-width: 80rem;
-		background: red;
+		/* background: red; */
 	}
 	${responsive['tablet']} {
 		width: 100%;
-		background: green;
+		/* background: green; */
 	}
 	${responsive['smartphone']} {
 		width: 100%;
-		background: blue;
+		/* background: blue; */
 	}
 `;
 

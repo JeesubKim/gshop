@@ -4,7 +4,7 @@ export default {
 	'primary-light': '#ACF3D3',
 	'primary-variant': '69C8A1',
 	material: {
-		Red: {
+		red: {
 			50: '#FFEBEE',
 			100: '#FFCDD2',
 			200: '#EF9A9A',
@@ -20,7 +20,7 @@ export default {
 			A400: '#FF1744',
 			A700: '#D50000',
 		},
-		Pink: {
+		pink: {
 			50: '#FCE4EC',
 			100: '#F8BBD0',
 			200: '#F48FB1',
@@ -36,7 +36,7 @@ export default {
 			A400: '#F50057',
 			A700: '#C51162',
 		},
-		Purple: {
+		purple: {
 			50: '#F3E5F5',
 			100: '#E1BEE7',
 			200: '#CE93D8',
@@ -52,7 +52,7 @@ export default {
 			A400: '#D500F9',
 			A700: '#AA00FF',
 		},
-		'Deep Purple': {
+		deepPurple: {
 			50: '#EDE7F6',
 			100: '#D1C4E9',
 			200: '#B39DDB',
@@ -68,7 +68,7 @@ export default {
 			A400: '#651FFF',
 			A700: '#6200EA',
 		},
-		Indigo: {
+		indigo: {
 			50: '#E8EAF6',
 			100: '#C5CAE9',
 			200: '#9FA8DA',
@@ -84,7 +84,7 @@ export default {
 			A400: '#3D5AFE',
 			A700: '#304FFE',
 		},
-		Blue: {
+		blue: {
 			50: '#E3F2FD',
 			100: '#BBDEFB',
 			200: '#90CAF9',
@@ -100,7 +100,7 @@ export default {
 			A400: '#2979FF',
 			A700: '#2962FF',
 		},
-		'Light Blue': {
+		lightBlue: {
 			50: '#E1F5FE',
 			100: '#B3E5FC',
 			200: '#81D4FA',
@@ -116,7 +116,7 @@ export default {
 			A400: '#00B0FF',
 			A700: '#0091EA',
 		},
-		Cyan: {
+		cyan: {
 			50: '#E0F7FA',
 			100: '#B2EBF2',
 			200: '#80DEEA',
@@ -132,7 +132,7 @@ export default {
 			A400: '#00E5FF',
 			A700: '#00B8D4',
 		},
-		Teal: {
+		teal: {
 			50: '#E0F2F1',
 			100: '#B2DFDB',
 			200: '#80CBC4',
@@ -148,7 +148,7 @@ export default {
 			A400: '#1DE9B6',
 			A700: '#00BFA5',
 		},
-		Green: {
+		green: {
 			50: '#E8F5E9',
 			100: '#C8E6C9',
 			200: '#A5D6A7',
@@ -164,7 +164,7 @@ export default {
 			A400: '#00E676',
 			A700: '#00C853',
 		},
-		'Light Green': {
+		lightGreen: {
 			50: '#F1F8E9',
 			100: '#DCEDC8',
 			200: '#C5E1A5',
@@ -180,7 +180,7 @@ export default {
 			A400: '#76FF03',
 			A700: '#64DD17',
 		},
-		z: {
+		lime: {
 			50: '#F9FBE7',
 			100: '#F0F4C3',
 			200: '#E6EE9C',
@@ -196,7 +196,7 @@ export default {
 			A400: '#C6FF00',
 			A700: '#AEEA00',
 		},
-		Yellow: {
+		yellow: {
 			50: '#FFFDE7',
 			100: '#FFF9C4',
 			200: '#FFF59D',
@@ -212,7 +212,7 @@ export default {
 			A400: '#FFEA00',
 			A700: '#FFD600',
 		},
-		Amber: {
+		amber: {
 			50: '#FFF8E1',
 			100: '#FFECB3',
 			200: '#FFE082',
@@ -228,7 +228,7 @@ export default {
 			A400: '#FFC400',
 			A700: '#FFAB00',
 		},
-		Orange: {
+		orange: {
 			50: '#FFF3E0',
 			100: '#FFE0B2',
 			200: '#FFCC80',
@@ -244,7 +244,7 @@ export default {
 			A400: '#FF9100',
 			A700: '#FF6D00',
 		},
-		'Deep Orange': {
+		deepOrange: {
 			50: '#FBE9E7',
 			100: '#FFCCBC',
 			200: '#FFAB91',
@@ -260,7 +260,7 @@ export default {
 			A400: '#FF3D00',
 			A700: '#DD2C00',
 		},
-		Brown: {
+		brown: {
 			50: '#EFEBE9',
 			100: '#D7CCC8',
 			200: '#BCAAA4',
@@ -272,7 +272,7 @@ export default {
 			800: '#4E342E',
 			900: '#3E2723',
 		},
-		Grey: {
+		grey: {
 			50: '#FAFAFA',
 			100: '#F5F5F5',
 			200: '#EEEEEE',
@@ -284,7 +284,7 @@ export default {
 			800: '#424242',
 			900: '#212121',
 		},
-		'Blue Grey': {
+		blueGrey: {
 			50: '#ECEFF1',
 			100: '#CFD8DC',
 			200: '#B0BEC5',
@@ -297,7 +297,7 @@ export default {
 			900: '#263238',
 		},
 
-		Black: '#000000',
-		White: '#FFFFFF',
+		black: '#000000',
+		white: '#FFFFFF',
 	},
 };

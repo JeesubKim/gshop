@@ -7,10 +7,20 @@ import PostPage from './page/PostPage';
 import './App.css';
 import AppLayout from './layout/AppLayout';
 
+import HeaderIcon from './component/HeaderIcon';
+import HeaderMenu from './component/HeaderMenu';
+import HeaderMenuItem from './component/HeaderMenuItem';
 function App() {
 	return (
 		<AppLayout>
-			<AppLayout.Header>header</AppLayout.Header>
+			<AppLayout.Header>
+				<HeaderMenu>
+					<HeaderIcon />
+					<HeaderMenuItem to="/">.</HeaderMenuItem>
+					<HeaderMenuItem to="/shop">#</HeaderMenuItem>
+					<HeaderMenuItem to="/note">MyList</HeaderMenuItem>
+				</HeaderMenu>
+			</AppLayout.Header>
 			<AppLayout.Body>
 				<BrowserRouter>
 					<Switch>
