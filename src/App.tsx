@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import LandingPage from './page/LandingPage';
+import ShopPage from './page/ShopPage';
+import ShopDetailPage from './page/ShopDetailPage';
+import PostPage from './page/PostPage';
 import './App.css';
+import AppLayout from './layout/AppLayout';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<AppLayout>
+			<AppLayout.Header>header</AppLayout.Header>
+			<AppLayout.Body>
+				<BrowserRouter>
+					<Switch>
+						<Route exact path="/" component={LandingPage}></Route>
+						<Route exact path="/shop" component={ShopPage}></Route>
+						<Route exact path="/shop/post" component={PostPage}></Route>
+						<Route path="/shop/:id" component={ShopDetailPage}></Route>
+					</Switch>
+				</BrowserRouter>
+			</AppLayout.Body>
+		</AppLayout>
+	);
 }
 
 export default App;

@@ -4,11 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { createGlobalStyle } from 'styled-components';
+const GlobalStyle = createGlobalStyle`
+html,body{
+  *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+}
+`;
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<App />
+		<GlobalStyle />
+	</React.StrictMode>,
+	document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
